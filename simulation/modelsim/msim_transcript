@@ -1,0 +1,81 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do graph_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {graph.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:56:00 on Oct 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." graph.vo 
+# -- Compiling module D_ff
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	D_ff
+# End time: 22:56:00 on Oct 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Anant/quartus_files/EE224_project/testbenches {C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:56:00 on Oct 17,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Anant/quartus_files/EE224_project/testbenches" C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v 
+# -- Compiling module tb_D_ff
+# 
+# Top level modules:
+# 	tb_D_ff
+# End time: 22:56:00 on Oct 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  tb_D_ff
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" tb_D_ff 
+# Start time: 22:56:00 on Oct 17,2025
+# Loading work.tb_D_ff
+# Loading work.D_ff
+# Loading work.hard_block
+# Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb
+# Loading fiftyfivenm_ver.fiftyfivenm_io_obuf
+# Loading fiftyfivenm_ver.fiftyfivenm_io_ibuf
+# Loading fiftyfivenm_ver.fiftyfivenm_clkctrl
+# Loading fiftyfivenm_ver.fiftyfivenm_mux41
+# Loading fiftyfivenm_ver.fiftyfivenm_ena_reg
+# Loading altera_ver.dffeas
+# Loading fiftyfivenm_ver.fiftyfivenm_unvm
+# Loading fiftyfivenm_ver.fiftyfivenm_adcblock
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3017) graph.vo(260): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_D_ff/uut/\~QUARTUS_CREATED_ADC1~  File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/fiftyfivenm_atoms.v
+# ** Warning: (vsim-3722) graph.vo(260): [TFMPC] - Missing connection for port 'clk_dft'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Time	clk	D	Q	Q_bar
+# 7000	1	0	0	1
+# 10000	0	0	0	1
+# 15000	1	1	0	1
+# 20000	0	1	0	1
+# 25000	1	1	1	0
+# 30000	0	1	1	0
+# 35000	1	0	1	0
+# 40000	0	0	1	0
+# 45000	1	1	0	1
+# 50000	0	1	0	1
+# TEST PASSED: All outputs matched expected values!
+# 55000	1	1	1	0
+# 60000	0	1	1	0
+# ** Note: $finish    : C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v(52)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_D_ff
+# 1
+# Break in Module tb_D_ff at C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v line 52
+# End time: 22:56:38 on Oct 17,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 2

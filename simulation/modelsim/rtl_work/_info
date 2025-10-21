@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Anant/quartus_files/EE224_project/simulation/modelsim
+vD_ff
+Z1 !s110 1760716176
+!i10b 1
+!s100 SI;57m@b_cdajoER6@^KM3
+I;P^CeKik4VGggj89K1K`;3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1760715014
+8C:/Users/Anant/quartus_files/EE224_project/src/D_ff.v
+FC:/Users/Anant/quartus_files/EE224_project/src/D_ff.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1760716176.000000
+!s107 C:/Users/Anant/quartus_files/EE224_project/src/D_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Anant/quartus_files/EE224_project/src|C:/Users/Anant/quartus_files/EE224_project/src/D_ff.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Anant/quartus_files/EE224_project/src
+Z6 tCvgOpt 0
+n@d_ff
+vtb_D_ff
+R1
+!i10b 1
+!s100 50FlY8O3nj9JklAl[dBm_1
+I4Y`hkPzF4GTgOXVUiWNno1
+R2
+R0
+w1760716155
+8C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v
+FC:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Anant/quartus_files/EE224_project/testbenches|C:/Users/Anant/quartus_files/EE224_project/testbenches/tb_DFF.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/Anant/quartus_files/EE224_project/testbenches
+R6
+ntb_@d_ff

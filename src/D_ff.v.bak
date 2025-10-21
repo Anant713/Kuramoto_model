@@ -1,0 +1,11 @@
+module D_ff(D,Q,Q_bar,clk);
+	input D, clk ;
+	output Q,Q_bar;
+	reg Q,Q_bar; 
+	always @(posedge clk)
+		begin
+		Q=D;
+		Q_bar = not Q ;
+		end 
+endmodule
+		
